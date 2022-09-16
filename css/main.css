@@ -65,7 +65,7 @@
 .banner:after{
    content: "";
    position: absolute;
-   left: 230px;
+   left: 282px;
    top: 65px;
    width: 500px;
    height: 500px;
@@ -109,8 +109,8 @@
 	 font-weight:600;
 	 font-size:15px;
 	 color: #464343;
-	 border-right:solid 2px #066ef0;
-	 margin-right: 845px;
+	 border-right:solid 3px #066ef0;
+	 margin-right: 945px;
 	 padding:2px 0px;
 }
 .ban-box{
@@ -154,7 +154,9 @@
 }
 
 /* about section */
-
+.about-me{
+	padding-bottom:100px;
+}
 .about-head{
 	margin-top:70px;
 }
@@ -192,16 +194,17 @@
 .about-cont h3{
 	font-size:30px;
 	font-family:"Open Sans", sans-serif;
-	margin-bottom:10px;
+	margin-bottom:15px;
 }
 .about-cont h3 strong{
 	font-weight:900;
+	
 }
 .about-cont h4{
 	font-size:14px;
     color:#80818d;
 	font-family:"Open Sans", sans-serif;
-	margin-bottom:10px;
+	margin-bottom:15px;
 	font-weight:600;
 	letter-spacing: 0.5px;
 	
@@ -211,7 +214,7 @@
     color:#80818d;
 	font-family:"Open Sans", sans-serif;
 	margin-bottom:10px;
-	line-height:1.5;
+	line-height:1.8;
 	display:inline-block;
 	text-align:left;
 }
@@ -221,7 +224,123 @@
 }
 .pers-info{
 	display:flex;
+	justify-content: space-between;
 }
+
+.pers-1 span{
+	margin-bottom:15px;
+	display:block;
+	color:#80818d;
+	font-family:"Poppins", sans-serif;
+	font-size: 14px;
+}
+.pers-1 span strong{
+	color:black;
+	font-weight:bold;
+}
+.about-cont button{
+	width:32%;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:10px 1px 10px 1px;
+	border-radius:30px;
+	font-size:12px;
+	font-weight:600;
+	background-color:#006deb;
+	color:#ffffff;
+	border:none;
+	letter-spacing: 1px;
+}
+	
+/* skill & expe	 */
+
+.skills{
+	background-color:#f1f5f9;
+	padding-top:100px;
+}
+.skill-head h2{
+	display:flex;
+	justify-content:center;
+	font-family:"Raleway", sans-serif;
+	line-height:2;
+	font-size:40px;
+	font-weight:800;
+	margin-bottom:20px;
+}
+.flex-skill{
+	display:flex;
+}
+.skill-icon{
+     width:50%;
+}
+.line-1{
+	width:100%;
+	box-sizing:border-box;
+	display:flex; 
+	margin-bottom:50px;
+}
+.line-1 i {
+	font-size:35px;
+	margin:10px 0px 10px 40px ;
+	background-color:blue;
+	padding:33px;
+	border-radius:100px;	
+}
+.line-2{
+	width:100%;
+	box-sizing:border-box;
+	display:flex; 
+	margin-bottom:50px;
+}
+.line-2 i {
+	font-size:35px;
+	margin:10px 0px 10px 40px ;
+	background-color:blue;
+	padding:33px;
+	border-radius:100px;	
+}
+.line-3{
+	width:100%;
+	box-sizing:border-box;
+	display:flex; 
+	margin-bottom:50px;
+}
+.line-3 i {
+	font-size:35px;
+	margin:10px 0px 10px 40px ;
+	background-color:blue;
+	padding:33px;
+	border-radius:100px;	
+}
+.line-1 i:nth-child(1){
+	background-color:#ffdcd6f5;
+	color:#ff0b0b;
+}
+.line-1 i:nth-child(2){
+	background-color:#c4cbff;
+	color:#1a0bff;
+}
+.line-2 i:nth-child(1){
+	background-color:#ffdcd6f5;
+	color:#ff0b0b;
+}
+.line-2 i:nth-child(2){
+	background-color:#ffdcd6f5;
+	color:#ff0b0b;
+}
+.line-2 i:nth-child(3){
+	background-color:#ffdcd6f5;
+	color:#ff0b0b;
+}
+.line-3 i:nth-child(1){
+	background-color:#ffdcd6f5;
+	color:#ff0b0b;
+}
+	
+	
+	
+	
+
 	
 	
 
