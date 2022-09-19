@@ -861,5 +861,12 @@
 .foot-icon{
 	line-height:3;
 }
-
+.foot-icon i{
+	font-size:15px;
+	margin-right:10px;
+	border:solid 1px #498bef;
+	color:#498bef;
+	padding:5px;
+	border-radius:50px;
+}
 	
